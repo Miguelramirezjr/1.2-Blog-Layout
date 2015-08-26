@@ -1,0 +1,98 @@
+/** HEADER **/
+
+header {
+  background-image: url(images/lasky.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/** MAIN ARTICLE SECTION **/
+
+article {
+  width: 650px;
+  top: 390px;
+  left: 500px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+article h1 {
+  font-family: 'Francois One', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #333;
+  text-transform: uppercase;
+}
+
+article p {
+  font-family: 'Slabo 27px', 'Serif';
+  letter-spacing: 0.04em;
+  line-height: 1.75em;
+  font-size: 1.3em;
+  color: #666;
+}
+
+/** SIDEBAR SECTION **/
+
+.ironyard img {
+  height: 95px;
+  width: 95px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+
+.sidebar h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 1.5em;
+  color: #666;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sidebar h2 {
+  font-family: 'Slabo 27px', 'Serif';
+  line-height: 1.5em;
+  font-size: 1.1em;
+  color: #AAA;
+}
+
+.sidebar {
+  position: relative;
+  top: 305px;
+  width: 250px;
+  padding-left: 200px;
+}
+/** SEARCH AND TEXT SECTION **/
+
+label {
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+hr {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  float: left;
+  border: 0;
+  height: 0;
+  border-top: 4px solid #E0E0E0;
+}
+
+input {
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  bottom: -60px;
+  position: absolute;
+  outline: none;
+}
