@@ -1,98 +1,160 @@
 /** HEADER **/
 
 header {
-  background-image: url(images/lasky.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+    background-image: url(images/Los-Angeles-City.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 /** MAIN ARTICLE SECTION **/
 
 article {
-  width: 650px;
-  top: 390px;
-  left: 500px;
-  padding-bottom: 50px;
-  position: relative;
+    width: 650px;
+    top: 465px;
+    left: 480px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-top: 40px;
 }
 
 article h1 {
-  font-family: 'Francois One', sans-serif;
-  font-weight: 800;
-  font-size: 2em;
-  line-height: 1.5em;
-  letter-spacing: 0.1em;
-  color: #333;
-  text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+    font-size: 2.8em;
+    line-height: 1.5em;
+    color: #333;
 }
 
 article p {
-  font-family: 'Slabo 27px', 'Serif';
-  letter-spacing: 0.04em;
-  line-height: 1.75em;
-  font-size: 1.3em;
-  color: #666;
+    font-family: 'Slabo 27px', 'Serif';
+    letter-spacing: 0.04em;
+    line-height: 1.75em;
+    font-size: 1.0em;
+    color: #666;
 }
 
 /** SIDEBAR SECTION **/
 
 .ironyard img {
-  height: 95px;
-  width: 95px;
-  border-radius: 100%;
-  border: 5px solid #fff;
+    height: 95px;
+    width: 95px;
+    border-radius: 100%;
+    border: 5px solid #fff;
 }
 
-.sidebar h1 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  line-height: 1.5em;
-  color: #666;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.sidebar p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #666;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration-style: solid;
 }
 
 .sidebar h2 {
-  font-family: 'Slabo 27px', 'Serif';
-  line-height: 1.5em;
-  font-size: 1.1em;
-  color: #AAA;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    color: #AAA;
+    margin: 0;
 }
 
 .sidebar {
-  position: relative;
-  top: 305px;
-  width: 250px;
-  padding-left: 200px;
+    position: relative;
+    top: 390px;
+    width: 250px;
+    padding-left: 170px;
 }
 /** SEARCH AND TEXT SECTION **/
 
 label {
-  font-family: 'Lato', sans-serif;
-  color: #000000;
-  font-weight: 700;
-  padding-bottom: 20px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 hr {
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 200px;
-  float: left;
-  border: 0;
-  height: 0;
-  border-top: 4px solid #E0E0E0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    float: left;
+    border: 0;
+    height: 0;
+    border-top: 4px solid #E0E0E0;
 }
 
-input {
-  padding: 15px;
-  width: 200px;
-  border-radius: 5px;
-  border: 1px solid #E0E0E0;
-  bottom: -60px;
-  position: absolute;
-  outline: none;
+form#search fieldset {
+    position: relative;
+    border: none;
+    margin-left: -18px;
+}
+form#search input[type='text'] {
+    padding: 4px;
+}
+form#search button {
+    position: absolute;
+    top: 9px;
+    left: 240px;
+    color: #AAA;
+}
+
+/** Right Side Container **/
+
+.right-side-container{
+    float: right;
+    margin-right: 30px;
+    margin-top: 300px;
+    height: 100px;
+}
+
+.never-miss {
+    border-style: solid;
+    border-width: thin;
+    width: 340px;
+    height: 30px;
+    color: #AAA;
+}
+
+.never-miss h6 {
+    color: #666;
+    font-size: 17px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.tiy-la {
+    border-style: solid;
+    border-width: thin;
+    width: 340px;
+    height: 50px;
+    color: #AAA;
+}
+
+.tiy-la h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.small-logo {
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.right-side-tiyla1 p{
+    margin-left: 55px;
+    margin-top: 3px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+.right-side-tiyla2 {
+    margin-left: 55px;
+    margin-top: -14px;
+    font-family: 'Lato', sans-serif;
 }
