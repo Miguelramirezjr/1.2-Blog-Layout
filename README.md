@@ -18,5 +18,4 @@ a text editor, and some familiarity with the OS X Terminal.
 - familiarize yourself with Chrome's Developer Tools and keyboard shortcuts
 
 
-
-![](./blog.png)
+https://raw.githubusercontent.com/TIY-GVL-FEE-2015-August/assignments/master/1.2-blog-layout/blog.png
